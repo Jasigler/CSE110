@@ -32,5 +32,15 @@ public class Lab5
 
         // Complete the class as described in Part 8 of the Assignment
 
+        Door sideDoor = new Door("side", "open");
+        System.out.println("\n" + sideDoor.getName());
+        System.out.println("Expected: side");
+        System.out.println(sideDoor.getState());
+        System.out.println("Expected: open");
+        sideDoor.close();
+        System.out.println(sideDoor.getState());
+        System.out.println("Expected: closed");
+        
+
     }
 }
